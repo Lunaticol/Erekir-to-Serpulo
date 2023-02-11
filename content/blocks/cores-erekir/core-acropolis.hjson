@@ -9,4 +9,6 @@ itemCapacity: 4000
     ]
 buildCostMultiplier: 1
 
+incinerateNonBuildable: false
+
 alwaysUnlocked: true
