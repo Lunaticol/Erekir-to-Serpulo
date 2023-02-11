@@ -1,5 +1,10 @@
 
-requirements: []
-buildCostMultiplier: 0.1
+requirements : [
+      silicon/100
+      copper/100
+      titanium/70
+      plastanium/25
+    ]
+buildCostMultiplier: 1
 
 alwaysUnlocked: true

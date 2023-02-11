@@ -1,5 +1,8 @@
 
-requirements: []
-buildCostMultiplier: 0.1
+requirements : [
+      surge-alloy/5
+      titanium/1
+    ]
+buildCostMultiplier: 1
 
 alwaysUnlocked: true

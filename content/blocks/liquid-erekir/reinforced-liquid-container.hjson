@@ -1,5 +1,9 @@
 
-requirements: []
-buildCostMultiplier: 0.1
+requirements : [
+      copper/16
+      titanium/10
+      metaglass/15
+    ]
+buildCostMultiplier: 1
 
 alwaysUnlocked: true

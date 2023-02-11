@@ -3,9 +3,9 @@ itemCapacity: 4000
  requirements : [
       silicon/5000
       copper/6000
-      titanium/5000
-      graphite/3000
-      surge-alloy/3000
+      titanium/4000
+      lead/5000
+      thorium/3000
     ]
 buildCostMultiplier: 1
 

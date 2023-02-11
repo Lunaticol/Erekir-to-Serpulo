@@ -1,3 +1,8 @@
-itemCapacity: 95000
+itemCapacity: 3000
 
-buildCostMultiplier: 0.1
+requirements : [
+      silicon/1000
+      copper/800
+      lead/1000
+    ]
+buildCostMultiplier: 1
