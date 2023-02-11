@@ -1,0 +1,6 @@
+itemCapacity: 4000
+
+requirements: [ silicon/5000 ][ beryllium/6000 ][ tungsten/5000 ][ oxide/3000 ][ carbide/5000 ]
+buildCostMultiplier: 1
+
+alwaysUnlocked: true

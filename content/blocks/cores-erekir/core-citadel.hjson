@@ -1,0 +1,6 @@
+itemCapacity: 95000
+
+requirements: [ graphite/1 ]
+buildCostMultiplier: 0.1
+
+alwaysUnlocked: true

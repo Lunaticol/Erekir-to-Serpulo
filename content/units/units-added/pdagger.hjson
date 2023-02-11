@@ -1,0 +1,54 @@
+type: mech
+name: P-Dagger
+description: Player Dagger
+
+health: 99000
+armor: 90
+
+buildSpeed: 9900.0
+itemCapacity: 900
+
+speed: 1.3
+
+fogRadius: 90
+
+envEnabled: 17
+envDisabled: 0
+
+range: 240
+
+
+weapons: [
+  {
+    name: pLargeWeapon
+    x: 4
+    y: 2
+    reload: 4
+    alternate: true
+    ejectEffect: casing1
+    
+    bullet: {
+      width: 7
+      height: 14
+      
+      lifetime: 80
+      speed: 5
+      damage: 180
+      
+      splashDamage: 180
+      splashDamageRadius: 64
+      
+      pierce: true
+      pierceBuilding: true
+      
+      absorbable: false
+      reflectable: false
+      
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+    }
+  }
+]
+
+research: zeta
+alwaysUnlocked: true

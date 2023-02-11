@@ -1,0 +1,9 @@
+
+buildSpeed: 9900.0
+itemCapacity: 900
+
+speed: 3.0
+
+fogRadius: 90
+
+alwaysUnlocked: true

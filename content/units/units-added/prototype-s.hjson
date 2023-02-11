@@ -1,0 +1,86 @@
+type: flying
+name: Prototype-S
+description: Prototype-S
+
+health: 99000
+armor: 90
+
+defaultCommand: repair
+isEnemy: false
+mineTier: 3
+mineSpeed: 4
+
+ammoType: {
+  type: PowerAmmoType
+  totalPower: 1100
+}
+
+buildSpeed: 9900.0
+itemCapacity: 900
+
+speed: 3.0
+
+fogRadius: 90
+
+envEnabled: 17
+envDisabled: 0
+
+accel: 0.7
+drag: 0.1
+engineOffset: 4
+engineSize: 0.00
+flying: true
+hitSize: 11
+
+
+weapons: [
+	{
+		name: main-weapon
+		reload: 4
+		shootSound: missile
+		bullet: {
+			type: BasicBulletType
+			width: 7
+			height: 14
+			
+			lifetime: 80
+			speed: 5
+			damage: 180
+			
+			splashDamage: 180
+			splashDamageRadius: 64
+			
+			pierce: true
+			pierceBuilding: true
+			
+			absorbable: false
+			reflectable: false
+			
+			// frontColor: 888888
+			// backColor:  ff0000
+			// trailColor: ffff88
+		}
+	}
+	{
+        name: heal-weapon-mount
+        shootSound: lasershoot
+        reload: 15
+        x: 4
+        y: 5
+        rotate: true
+        
+        bullet: {
+            type: LaserBoltBulletType
+            speed: 5.2
+            damage: 8
+            lifetime: 35
+            healPercent: 50
+            collidesTeam: true
+            backColor: 98ffa9        //heal
+            frontColor: ffffff        //white
+        }
+    }
+]
+
+research: falcon
+alwaysUnlocked: true
