@@ -1,7 +1,11 @@
 itemCapacity: 4000
-requirements : [
-        silicon/6
-        beryllium/6
+
+ requirements : [
+      silicon/5000
+      copper/6000
+      titanium/5000
+      oxide/3000
+      carbide/3000
     ]
 buildCostMultiplier: 1
 
