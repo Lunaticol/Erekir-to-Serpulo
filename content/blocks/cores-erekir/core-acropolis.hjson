@@ -5,7 +5,7 @@ itemCapacity: 4000
       copper/6000
       titanium/5000
       graphite/3000
-      surge alloy/3000
+      surge-alloy/3000
     ]
 buildCostMultiplier: 1
 
