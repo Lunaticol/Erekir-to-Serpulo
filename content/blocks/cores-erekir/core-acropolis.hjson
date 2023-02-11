@@ -1,6 +1,7 @@
 itemCapacity: 4000
 requirements : [
         silicon/6
+        copper/6
     ]
 buildCostMultiplier: 1
 
