@@ -1,5 +1,9 @@
 
-requirements: []
+
+requirements : [
+      graphite/8
+      copper/8
+    ]
 buildCostMultiplier: 1
 itemCapacity: 25
 consumes: {
@@ -9,7 +13,7 @@ consumes: {
   items: [
    titanium/2
    graphite/3
-   ]
- }
+  ]
+}}
 
 alwaysUnlocked: true
