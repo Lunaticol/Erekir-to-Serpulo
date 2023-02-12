@@ -13,8 +13,8 @@ consumes: {
   items: [
    titanium/2
    graphite/3
-  ]
+   ]
+  }
  }
-}
 
 alwaysUnlocked: true
