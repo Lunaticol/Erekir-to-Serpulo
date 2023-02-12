@@ -7,7 +7,6 @@ requirements : [
 buildCostMultiplier: 1
 itemCapacity: 25
 consumes: {
- power: 120
  items: {
   items: [
    titanium/2
