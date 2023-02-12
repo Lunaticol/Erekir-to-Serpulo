@@ -1,5 +1,7 @@
 
-requirements: []
-buildCostMultiplier: 0.1
+requirements : [
+      titanium/10
+    ]
+buildCostMultiplier: 1
 
 alwaysUnlocked: true

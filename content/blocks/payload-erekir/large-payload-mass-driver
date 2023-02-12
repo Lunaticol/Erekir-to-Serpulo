@@ -1,0 +1,11 @@
+
+requirements : [
+      graphite/100
+      thorium/200
+      silicon/200
+      titanium/200
+      plastanium/30
+    ]
+buildCostMultiplier: 1
+
+alwaysUnlocked: true

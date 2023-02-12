@@ -4,6 +4,6 @@ requirements : [
       silicon/120
       titanium/120
     ]
-buildCostMultiplier: 0.1
+buildCostMultiplier: 1
 
 alwaysUnlocked: true

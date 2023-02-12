@@ -1,5 +1,9 @@
 
-requirements: []
-buildCostMultiplier: 0.1
+requirements : [
+      graphite/50
+      silicon/50
+      titanium/30
+    ]
+buildCostMultiplier: 1
 
 alwaysUnlocked: true

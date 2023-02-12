@@ -1,5 +1,15 @@
 
 requirements: []
-buildCostMultiplier: 0.1
+buildCostMultiplier: 1
+itemCapacity: 25
+consumes: {
+ power: 120
+ heat: 10
+ items: {
+  items: [
+   titanium/2
+   graphite/3
+   ]
+ }
 
 alwaysUnlocked: true

@@ -1,5 +1,9 @@
 
-requirements: []
+requirements : [
+      graphite/80
+      surge-alloy/50
+      plastanium/20
+    ]
 buildCostMultiplier: 0.1
 
 alwaysUnlocked: true
