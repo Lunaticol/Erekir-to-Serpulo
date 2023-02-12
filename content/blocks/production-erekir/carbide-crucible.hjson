@@ -8,7 +8,6 @@ buildCostMultiplier: 1
 itemCapacity: 25
 consumes: {
  power: 120
- heat: 10
  items: {
   items: [
    titanium/2
