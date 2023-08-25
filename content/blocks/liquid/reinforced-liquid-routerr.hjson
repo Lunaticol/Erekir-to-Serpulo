@@ -1,0 +1,17 @@
+{
+  "type": "LiquidRouter",
+  "name": "Duct",
+  "description": "transportatin",
+  "size": 1,
+  "liquidCapacity": 30,
+  "liquidPadding": 0.75,
+  "underBullets": true,
+  "solid": false,
+  "category": "liquid",
+  "requirements": [
+    "graphite/8",
+    "copper/4",
+    "metaglass/4"
+  ],
+  "research": "core-shard"
+}

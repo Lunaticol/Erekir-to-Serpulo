@@ -1,0 +1,22 @@
+{
+  "type": "CoreBlock",
+  "name": "Core: Bastion",
+  "description": "Erekir core",
+  "size": 4,
+  "health": 4500,
+  "itemCapacity": 2000,
+  "isFirstTier": true,
+  "unitType": "evoke",
+  "thrusterLength": 8.5,
+  "armor": 5,
+  "squareSprite": false,
+  "category": "effect",
+  "requirements": [
+    "silicon/1000",
+    "copper/800",
+    "lead/1000"
+  ],
+  "research": "core-shard",
+  "incinerateNonBuildable": false,
+  "alwaysUnlocked": true
+}

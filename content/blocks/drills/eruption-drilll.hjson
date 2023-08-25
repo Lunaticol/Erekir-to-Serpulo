@@ -1,0 +1,35 @@
+{
+  "type": "BurstDrill",
+  "name": "Eruption Drill",
+  "description": "An improved impact drill. Capable of mining thorium. Requires hydrogen.",
+  "tier": 7,
+  "drillTime": 360,
+  "drillMultipliers": {
+    "copper": 1,
+    "lead": 1,
+    "scrap": 1,
+    "coal": 1,
+    "titanium": 1
+  },
+  "size": 5,
+  "hasPower": true,
+  "drillEffect": "mineHuge",
+  "warmupSpeed": 0.01,
+  "itemCapacity": 50,
+  "consumes": {
+    "power": 5.5,
+    "liquid": {
+      "liquid": "hydrogen",
+      "amount": 0.06666666667,
+      "booster": false
+    }
+  },
+  "category": "production",
+  "requirements": [
+    "silicon/200",
+    "plastanium/20",
+    "titanium/200",
+    "thorium/120"
+  ],
+  "research": "core-shard"
+}

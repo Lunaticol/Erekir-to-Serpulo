@@ -1,0 +1,49 @@
+{
+  "type": "HeatCrafter",
+  "name": "Atmospheric Concentrator",
+  "description": "Produces Nitrogen",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "liquids": "nitrogen",
+        "drawLiquid": "nitrogen"
+      },
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawHeatInput",
+        "color": "4f0ff",
+        "alpha": 0.6,
+        "particleSize": 4,
+        "particles": 10,
+        "particleRad": 12,
+        "particleLife": 140
+      }
+    ]
+  },
+  "size": 3,
+  "liquidCapacity": 40,
+  "ambientSound": "extract",
+  "ambientSoundVolume": 0.06,
+  "heatRequirement": 6,
+  "hasPower": true,
+  "hasLiquids": true,
+  "outputLiquid": "nitrogen/0.06666666667",
+  "consumes": {
+    "power": 1
+  },
+  "category": "crafting",
+  "requirements": [
+    "copper/180",
+    "silicon/150",
+    "plastanium/60"
+  ],
+  "ResearchCostMultiplier": 1.1
+}

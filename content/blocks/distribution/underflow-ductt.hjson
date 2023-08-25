@@ -1,0 +1,15 @@
+{
+  "type": "OverflowDuct",
+  "name": "Underflow Duct",
+  "description": "Crushes walls, outputting sand indefinitely. Requires power. Efficiency varies based on type of wall.",
+  "size": 1,
+  "itemCapacity": 1,
+  "speed": 4,
+  "invert": true,
+  "category": "distribution",
+  "requirements": [
+    "graphite/25",
+    "copper/10"
+  ],
+  "research": "core-shard"
+}

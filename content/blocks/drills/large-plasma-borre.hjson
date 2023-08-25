@@ -1,0 +1,28 @@
+{
+  "type": "BeamDrill",
+  "name": "Large Plasma Bore",
+  "description": "An improved impact drill. Capable of mining thorium. Requires hydrogen.",
+  "tier": 5,
+  "drillTime": 300,
+  "size": 3,
+  "range": 6,
+  "hasPower": true,
+  "drillEffect": "mineHuge",
+  "warmupSpeed": 0.01,
+  "itemCapacity": 50,
+  // fix it from using the booster lasers 
+  "consumes": {
+    "power": 5,
+    "liquid": {
+      "liquid": "hydrogen",
+      "amount": 0.1
+    }
+  },
+  "category": "production",
+  "requirements": [
+    "graphite/60",
+    "silicon/70",
+    "copper/90"
+  ],
+  "research": "core-shard"
+}

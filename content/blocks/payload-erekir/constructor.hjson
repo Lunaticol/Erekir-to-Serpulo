@@ -1,9 +1,0 @@
-
-requirements : [
-      silicon/100
-      copper/150
-      titanium/80
-    ]
-buildCostMultiplier: 1
-
-alwaysUnlocked: true

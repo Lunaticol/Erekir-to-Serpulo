@@ -1,0 +1,23 @@
+{
+  "type": "WallCrafter",
+  "name": "Cliff Crusher",
+  "description": "Crushes walls, outputting sand indefinitely. Requires power. Efficiency varies based on type of wall.",
+  "tier": 0,
+  "drillTime": 110,
+  "size": 2,
+  "range": 1,
+  "hasPower": true,
+  "drillEffect": "mineHuge",
+  "rotateSpeed": 2,
+  "warmupSpeed": 0.01,
+  "itemCapacity": 10,
+  "consumes": {
+    "power": 0.183333333333
+  },
+  "category": "production",
+  "requirements": [
+    "graphite/25",
+    "copper/10"
+  ],
+  "research": "core-shard"
+}

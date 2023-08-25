@@ -1,0 +1,73 @@
+{
+  "type": "RegenProjector",
+  "name": "Regen Projector",
+  "baseColor": "d1efff",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "liquids": "hydrogen",
+        "drawLiquid": "hydrogen",
+        "padding": 1.5,
+        "color": "8ca9e8"
+      },
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "color": "8ca9e8"
+      },
+      {
+        "type": "DrawPulseShape",
+        "suffix": "-glow",
+        "square": "falseF",
+        "color": "8ca9e8",
+        "layer": 110
+      },
+      {
+        "type": "DrawShape",
+        "suffix": "-glow",
+        "timeScl": 3,
+        "radius": 3.5,
+        "useWarmupRadius": true,
+        "color": "8ca9e8",
+        "layer": 110
+      }
+    ]
+  },
+  "description": "like support units it helps build",
+  "size": 3,
+  "range": 28,
+  "hasPower": true,
+  "healpercent": 0.06666666667,
+  "color": "8ca9e8",
+  "consumes": {
+    "power": 1,
+    "items": {
+      "items": [
+        "phase-fabric/1"
+      ],
+      "booster": true,
+      "optional": true
+    },
+    "liquid": {
+      "liquid": "hydrogen",
+      "amount": 1,
+      "booster": true
+    }
+  },
+  "category": "effect",
+  "requirements": [
+    "silicon/80",
+    "copper/80",
+    "titanium/60",
+    "plastanium/40"
+  ],
+  "research": "core-shard"
+}

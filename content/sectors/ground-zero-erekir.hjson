@@ -1,0 +1,11 @@
+{
+  "planet": "serpulo",
+  "sector": 15,
+  "difficulty": 1,
+  "captureWave": 10,
+  "objectives": [
+    {
+      "type": "SectorComplete"
+    }
+  ]
+}

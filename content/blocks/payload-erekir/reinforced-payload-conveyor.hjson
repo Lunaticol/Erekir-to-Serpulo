@@ -1,7 +1,17 @@
-
-requirements : [
-      titanium/10
-    ]
-buildCostMultiplier: 1
-
-alwaysUnlocked: true
+{
+  "type": "PayloadDeconstructor",
+  "name": "Small Deconstructor",
+  "description": "Creates 2x2 and 1x1 blocks",
+  "size": 3,
+  "itemCapacity": 100,
+  "deconstructSpeed": 0.2,
+  "hasPower": true,
+  "consumes": {
+    "power": 1
+  },
+  "regionSuffix": "-dark",
+  "category": "units",
+  "requirements": [
+    "titanium/10"
+  ]
+}

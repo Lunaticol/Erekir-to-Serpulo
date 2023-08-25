@@ -1,0 +1,45 @@
+{
+  "type": "HeatCrafter",
+  "name": "Carbide Crucible",
+  "description": "Produces carbide.",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawCrucibleFlame"
+      },
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawHeatInput"
+      }
+    ]
+  },
+  "size": 3,
+  "itemCapacity": 20,
+  "ambientSound": "smelter",
+  "ambientSoundVolume": 0.09,
+  "heatRequirement": 10,
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 135,
+  "outputItem": "carbide/1",
+  "consumes": {
+    "power": 1,
+    "items": [
+      "titanium/2",
+      "graphite/3"
+    ]
+  },
+  "category": "crafting",
+  "requirements": [
+    "titanium/110",
+    "thorium/150",
+    "plastanium/60"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "LiquidRouter",
+  "name": "Reinforced Liquid Container",
+  "description": "transportatin",
+  "size": 2,
+  "liquidCapacity": 500,
+  "liquidPadding": 1.5,
+  "underBullets": true,
+  "solid": false,
+  "category": "liquid",
+  "requirements": [
+    "copper/16",
+    "titanium/10",
+    "metaglass/15"
+  ],
+  "research": "core-shard"
+}

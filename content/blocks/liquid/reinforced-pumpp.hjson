@@ -1,0 +1,15 @@
+{
+  "type": "Pump",
+  "name": "Reinforced Pump",
+  "description": "draws liquid from under it",
+  "size": 2,
+  "liquidCapacity": 50,
+  "category": "liquid",
+  "requirements": [
+    "silicon/20",
+    "copper/40",
+    "titanium/30",
+    "metaglass/40"
+  ],
+  "research": "core-shard"
+}

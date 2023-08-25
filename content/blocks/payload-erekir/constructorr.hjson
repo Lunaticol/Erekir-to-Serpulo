@@ -1,0 +1,30 @@
+{
+  "type": "Constructor",
+  "name": "Constructor",
+  "description": "Creates 2x2 and 1x1 blocks",
+  "size": 3,
+  "itemCapacity": 24,
+  "buildSpeed": 0.2,
+  "hasItems": true,
+  "hasPower": true,
+  "consumes": {
+    "power": 1
+  },
+  "regionSuffix": "-dark",
+  "filter": [
+    "tungsten-wall-large",
+    "beryllium-wall-large",
+    "carbide-wall-large",
+    "reinforced-surge-wall-large",
+    "reinforced-liquid-container",
+    "reinforced-container",
+    "beam-node"
+  ],
+  "category": "units",
+  "requirements": [
+    "silicon/100",
+    "copper/150",
+    "titanium/80"
+  ],
+  "research": "core-shard"
+}

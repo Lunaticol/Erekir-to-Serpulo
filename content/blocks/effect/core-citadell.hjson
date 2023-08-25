@@ -1,0 +1,18 @@
+{
+  "type": "CoreBlock",
+  "name": "Core: Citadel",
+  "description": "Erekir core",
+  "size": 5,
+  "health": 16000,
+  "itemCapacity": 4000,
+  "squareSprite": false,
+  "category": "effect",
+  "requirements": [
+    "silicon/4000",
+    "copper/4000",
+    "titanium/3000",
+    "lead/1000"
+  ],
+  "research": "core-shard",
+  "incinerateNonBuildable": false
+}

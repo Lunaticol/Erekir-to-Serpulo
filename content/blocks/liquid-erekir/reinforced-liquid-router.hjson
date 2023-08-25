@@ -1,9 +1,0 @@
-
-requirements : [
-      graphite/8
-      copper/4
-      metaglass/4
-    ]
-buildCostMultiplier: 1
-
-alwaysUnlocked: true

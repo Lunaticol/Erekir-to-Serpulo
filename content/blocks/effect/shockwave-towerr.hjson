@@ -1,0 +1,25 @@
+{
+  "type": "ShockwaveTower",
+  "name": "Shockwave Tower",
+  "description": "destroys (unit) projectiles",
+  "size": 3,
+  "range": 170,
+  "reload": 80,
+  "hasPower": true,
+  "consumes": {
+    "power": 1,
+    "liquid": {
+      "liquid": "cyanogen",
+      "amount": 0.1,
+      "booster": false
+    }
+  },
+  "category": "effect",
+  "requirements": [
+    "silicon/180",
+    "surge-alloy/50",
+    "titanium/100",
+    "plastanium/30"
+  ],
+  "research": "core-shard"
+}

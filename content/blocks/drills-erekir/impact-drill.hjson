@@ -1,9 +1,0 @@
-
-requirements : [
-      graphite/60
-      silicon/70
-      copper/90
-    ]
-buildCostMultiplier: 1
-
-alwaysUnlocked: true

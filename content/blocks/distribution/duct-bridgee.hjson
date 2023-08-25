@@ -1,0 +1,14 @@
+{
+  "type": "DuctBridge",
+  "name": "Duct Bridge",
+  "description": "bridges over blocks",
+  "size": 1,
+  "itemCapacity": 1,
+  "speed": 1,
+  "category": "distribution",
+  "requirements": [
+    "graphite/25",
+    "copper/10"
+  ],
+  "research": "core-shard"
+}

@@ -1,10 +1,22 @@
-
-requirements : [
-      silicon/150
-      phase-fabric/40
-      titanium/200
-      plastanium/150
-    ]
-buildCostMultiplier: 1
-
-alwaysUnlocked: true
+{
+  "type": "Constructor",
+  "name": "Large Constructor",
+  "description": "Creates 3x3 and 4x4 blocks",
+  "size": 3,
+  "itemCapacity": 24,
+  "buildSpeed": 0.2,
+  "maxBlockSize": 4,
+  "minBlockSize": 3,
+  "hasPower": true,
+  "consumes": {
+    "power": 1
+  },
+  "regionSuffix": "-dark",
+  "category": "units",
+  "requirements": [
+    "silicon/150",
+    "phase-fabric/40",
+    "titanium/200",
+    "plastanium/150"
+  ]
+}

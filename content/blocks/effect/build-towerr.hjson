@@ -1,0 +1,23 @@
+{
+  "type": "BuildTurret",
+  "name": "Build Turret",
+  "description": "like support units it helps build",
+  "size": 3,
+  "range": 200,
+  "hasPower": true,
+  "consumes": {
+    "power": 5,
+    "liquid": {
+      "liquid": "nitrogen",
+      "amount": 0.1,
+      "booster": false
+    }
+  },
+  "category": "effect",
+  "requirements": [
+    "thorium/60",
+    "silicon/150",
+    "plastanium/40"
+  ],
+  "research": "core-shard"
+}

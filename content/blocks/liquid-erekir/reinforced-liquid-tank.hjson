@@ -1,9 +1,0 @@
-
-requirements : [
-      copper/50
-      titanium/40
-      metaglass/20
-    ]
-buildCostMultiplier: 0.1
-
-alwaysUnlocked: true

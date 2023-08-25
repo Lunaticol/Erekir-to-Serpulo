@@ -1,0 +1,15 @@
+{
+  "type": "DirectionLiquidBridge",
+  "name": "Reinforced Bridge",
+  "description": "transportatin",
+  "size": 1,
+  "range": 4,
+  "liquidCapacity": 5,
+  "underBullets": true,
+  "category": "liquid",
+  "requirements": [
+    "graphite/8",
+    "metaglass/20"
+  ],
+  "research": "core-shard"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "LiquidRouter",
+  "name": "Reinforced Liquid Tank",
+  "description": "transportatin",
+  "size": 3,
+  "liquidCapacity": 2700,
+  "liquidPadding": 2,
+  "solid": true,
+  "category": "liquid",
+  "requirements": [
+    "copper/50",
+    "titanium/40",
+    "metaglass/20"
+  ],
+  "research": "core-shard"
+}

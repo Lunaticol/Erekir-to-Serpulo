@@ -1,8 +1,0 @@
-
-requirements : [
-      graphite/25
-      copper/20
-    ]
-buildCostMultiplier: 1
-
-alwaysUnlocked: true

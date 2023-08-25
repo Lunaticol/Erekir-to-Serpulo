@@ -1,0 +1,6 @@
+{
+  "type": "OreBlock",
+  "wallOre": true,
+  "itemDrop": "scrap",
+  "variants": 3
+}

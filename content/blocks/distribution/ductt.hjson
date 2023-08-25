@@ -1,0 +1,14 @@
+{
+  "type": "Duct",
+  "name": "Duct",
+  "description": "transportatin",
+  "size": 1,
+  "itemCapacity": 1,
+  "speed": 1,
+  "category": "distribution",
+  "requirements": [
+    "graphite/25",
+    "copper/10"
+  ],
+  "research": "core-shard"
+}

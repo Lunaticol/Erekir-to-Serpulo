@@ -1,0 +1,14 @@
+{
+  "type": "ArmoredConveyor",
+  "name": "Armored Duct",
+  "description": "armored version of duct",
+  "size": 1,
+  "itemCapacity": 1,
+  "speed": 1,
+  "category": "distribution",
+  "requirements": [
+    "graphite/25",
+    "copper/10"
+  ],
+  "research": "core-shard"
+}

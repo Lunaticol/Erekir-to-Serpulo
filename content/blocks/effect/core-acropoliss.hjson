@@ -1,0 +1,19 @@
+{
+  "type": "CoreBlock",
+  "name": "Core: Acropolis",
+  "description": "Erekir core",
+  "size": 6,
+  "health": 30000,
+  "itemCapacity": 4000,
+  "squareSprite": false,
+  "category": "effect",
+  "requirements": [
+    "silicon/5000",
+    "copper/6000",
+    "titanium/4000",
+    "lead/5000",
+    "thorium/3000"
+  ],
+  "research": "core-shard",
+  "incinerateNonBuildable": false
+}

@@ -1,0 +1,13 @@
+{
+  "type": "Conduit",
+  "name": "Reinforced Conduit",
+  "description": "transportatin",
+  "size": 1,
+  "liquidCapacity": 1,
+  "category": "liquid",
+  "requirements": [
+    "copper/2",
+    "metaglass/1"
+  ],
+  "research": "core-shard"
+}

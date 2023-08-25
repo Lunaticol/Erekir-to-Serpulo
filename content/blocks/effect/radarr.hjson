@@ -1,0 +1,19 @@
+{
+  "type": "radar",
+  "name": "Radar",
+  "description": "reveals hidden terrain in fog (utterly useless besides that)",
+  "size": 1,
+  "range": 200,
+  "fogRadius": 34,
+  "hasPower": true,
+  "consumes": {
+    "power": 1
+  },
+  "category": "effect",
+  "requirements": [
+    "graphite/50",
+    "silicon/60",
+    "copper/10"
+  ],
+  "research": "core-shard"
+}

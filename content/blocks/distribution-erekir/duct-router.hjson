@@ -1,7 +1,0 @@
-
-requirements : [
-      copper/10
-    ]
-buildCostMultiplier: 1
-
-alwaysUnlocked: true

@@ -1,0 +1,15 @@
+{
+  "type": "LiquidJunction",
+  "name": "Reinforced Junction",
+  "description": "transportatin",
+  "size": 1,
+  "liquidCapacity": 5,
+  "underBullets": true,
+  "category": "liquid",
+  "requirements": [
+    "graphite/4",
+    "copper/8",
+    "metaglass/4"
+  ],
+  "research": "core-shard"
+}
