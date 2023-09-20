@@ -28,7 +28,7 @@
   "hasPower": true,
   "hasItems": true,
   "craftTime": 135,
-  "outputItem": "carbide/1",
+  "outputItem": "carbidee/1",
   "consumes": {
     "power": 1,
     "items": [

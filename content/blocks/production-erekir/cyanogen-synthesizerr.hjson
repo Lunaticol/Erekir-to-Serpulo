@@ -1,0 +1,69 @@
+{
+  "type": "HeatCrafter",
+  "name": "Atmospheric Concentrator",
+  "description": "Produces Nitrogen",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "liquids": "cyanogen",
+        "drawLiquid": "cyanogen"
+      },
+      {
+        "type": "DrawParticles",
+        "color": "89e8b6",
+        "alpha ": 0.5,
+        "particleSize": 3,
+        "particles": 10,
+        "particleLife": 200,
+        "reverse": true,
+        "particleSizeInterp": "one"
+      },
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawHeatInput"
+      },
+      {
+        "type": "DrawHeatRegion",
+        "suffix": "-heat-top"
+      }
+    ]
+  },
+  "size": 3,
+  "liquidCapacity": 80,
+  "ambientSound": "extract",
+  "ambientSoundVolume": 0.08,
+  "heatRequirement": 5,
+  "hasPower": true,
+  "outputLiquid": "cyanogen/0.06666666667",
+  "consumes": {
+    "power": 1,
+    "items": {
+      "items": [
+        "graphite/1"
+      ],
+      "booster": false,
+      "optional": false
+    },
+    "liquid": {
+      "liquid": "arkycite",
+      "amount": 1,
+      "booster": false,
+      "optional": false
+    }
+  },
+  "category": "crafting",
+  "requirements": [
+    "copper/90",
+    "silicon/80",
+    "carbidee/80"
+  ],
+  "ResearchCostMultiplier": 1.1
+}
