@@ -5,11 +5,10 @@
   "tier": 7,
   "drillTime": 360,
   "drillMultipliers": {
-    "copper": 1,
-    "lead": 1,
-    "scrap": 1,
-    "coal": 1,
-    "titanium": 1
+    "copper": 2,
+    "lead": 2,
+    "scrap": 2,
+    "coal": 2
   },
   "size": 5,
   "hasPower": true,

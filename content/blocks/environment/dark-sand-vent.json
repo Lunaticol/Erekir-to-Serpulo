@@ -1,0 +1,7 @@
+{
+  "type": "SteamVent",
+  "parent": "darksand",
+  "blendGroup": "darksand",
+  "variants": 2,
+  "effect": "ventSteam"
+}

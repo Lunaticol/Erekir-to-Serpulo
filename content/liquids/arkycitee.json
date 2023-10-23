@@ -1,0 +1,9 @@
+{
+  "name": "Arkycite",
+  "Description": "Arkycite",
+  "flammability": 0.4,
+  "viscosity": 0.7,
+  "expoliveness": 0,
+  "temperature": 0.5,
+  "color": "84a94b"
+}

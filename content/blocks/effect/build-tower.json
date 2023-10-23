@@ -4,6 +4,10 @@
   "description": "like support units it helps build",
   "size": 3,
   "range": 200,
+  "outlines": true,
+  "outlineRadius": 4,
+  "outlineColor": "404049ff",
+  "outlineIcon": true,
   "hasPower": true,
   "consumes": {
     "power": 5,
@@ -14,10 +18,6 @@
     }
   },
   "category": "effect",
-  "requirements": [
-    "thorium/60",
-    "silicon/150",
-    "plastanium/40"
-  ],
+  "requirements": ["thorium/60", "silicon/150", "plastanium/40"],
   "research": "core-shard"
 }
