@@ -1,5 +1,5 @@
 {
-  "type": "PayloadDeconstructor",
+  "type": "PayloadLoader",
   "name": "Small Deconstructor",
   "description": "Creates 2x2 and 1x1 blocks",
   "size": 3,
@@ -11,9 +11,5 @@
   },
   "regionSuffix": "-dark",
   "category": "units",
-  "requirements": [
-    "graphite/50",
-    "silicon/50",
-    "titanium/80"
-  ]
+  "requirements": ["graphite/50", "silicon/50", "titanium/80"]
 }

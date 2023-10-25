@@ -1,19 +1,17 @@
 {
-  "type": "PayloadDeconstructor",
+  "type": "PayloadMassDriver",
   "name": "Small Deconstructor",
   "description": "Creates 2x2 and 1x1 blocks",
   "size": 3,
-  "itemCapacity": 100,
-  "deconstructSpeed": 0.2,
+  "reload": 130,
+  "chargeTime": 90,
+  "range": 700,
+  "maxPayloadSize": 2.5,
   "hasPower": true,
   "consumes": {
-    "power": 1
+    "power": 0.5
   },
   "regionSuffix": "-dark",
   "category": "units",
-  "requirements": [
-    "graphite/50",
-    "silicon/120",
-    "titanium/120"
-  ]
+  "requirements": ["graphite/50", "silicon/120", "titanium/120"]
 }

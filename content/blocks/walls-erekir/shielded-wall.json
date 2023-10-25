@@ -1,5 +1,17 @@
-
-requirements: []
-buildCostMultiplier: 0.1
-
-alwaysUnlocked: true
+{
+  "type": "ShieldWall",
+  "name": "Sheilded Wall",
+  "size": 2,
+  "health": 4160,
+  "armor": 15,
+  "hasPower": true,
+  "outputsPower": false,
+  "consumesPower": true,
+  "conductivePower": true,
+  "chanceDeflect": 8,
+  "consumes": {
+    "power": 0.05
+  },
+  "category": "defense",
+  "requirements": ["phase-fabric/20", "surge-alloy/12", "copper/12"]
+}

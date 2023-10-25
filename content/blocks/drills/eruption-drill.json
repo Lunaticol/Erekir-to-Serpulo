@@ -30,5 +30,8 @@
     "titanium/200",
     "thorium/120"
   ],
-  "research": "core-shard"
+  "research": {
+    "parent": "core-shard",
+    "requirements": ["copper/5"]
+  }
 }

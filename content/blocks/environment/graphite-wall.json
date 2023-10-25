@@ -1,0 +1,6 @@
+{
+  "type": "OreBlock",
+  "wallOre": true,
+  "itemDrop": "graphite",
+  "variants": 3
+}

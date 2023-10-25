@@ -1,25 +1,25 @@
 {
-  "type": "HeatProducer",
-  "name": "Shockwave Tower",
-  "description": "destroys (unit) projectiles",
+  "type": "HeatConductor",
+  "name": "Heat Redirector",
+  "description": "Redirects heat",
   "size": 3,
-  "range": 170,
-  "reload": 80,
-  "hasPower": true,
-  "consumes": {
-    "power": 1,
-    "liquid": {
-      "liquid": "cyanogen",
-      "amount": 0.1,
-      "booster": false
-    }
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawHeatOutput"
+      },
+      {
+        "type": "drawHeatInput",
+        "suffix": "-heat"
+      }
+    ]
   },
-  "category": "effect",
-  "requirements": [
-    "silicon/180",
-    "surge-alloy/50",
-    "titanium/100",
-    "plastanium/30"
-  ],
+  "regionRotated1": 1,
+  "category": "crafting",
+  "requirements": ["titanium/10", "graphite/10"],
   "research": "core-shard"
 }

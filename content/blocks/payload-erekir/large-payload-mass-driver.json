@@ -1,15 +1,15 @@
 {
   "type": "PayloadMassDriver",
   "name": "Large Payload Mass Driver",
-  "description": "Creates 3x3 and 4x4 blocks",
-  "size": 3,
+  "description": "Transports larger blocks/units",
+  "size": 5,
   "reload": 130,
   "chargeTime": 100,
   "range": 1100,
   "maxPayloadSize": 3.5,
   "hasPower": true,
   "consumes": {
-    "power": 1
+    "power": 3
   },
   "regionSuffix": "-dark",
   "category": "units",
@@ -18,6 +18,6 @@
     "thorium/200,",
     "silicon/200,",
     "titanium/200,",
-    "plastanium/30,"
+    "oxidee/30,"
   ]
 }

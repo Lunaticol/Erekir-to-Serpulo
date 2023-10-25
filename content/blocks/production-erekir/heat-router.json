@@ -1,5 +1,5 @@
 {
-  "type": "HeatProducer",
+  "type": "HeatConductor",
   "name": "Shockwave Tower",
   "description": "destroys (unit) projectiles",
   "size": 3,

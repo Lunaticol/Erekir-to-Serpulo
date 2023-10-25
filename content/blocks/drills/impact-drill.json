@@ -22,10 +22,9 @@
     }
   },
   "category": "production",
-  "requirements": [
-    "graphite/60",
-    "silicon/70",
-    "copper/90"
-  ],
-  "research": "core-shard"
+  "requirements": ["graphite/60", "silicon/70", "copper/90"],
+  "research": {
+    "parent": "core-shard",
+    "requirements": ["copper/5"]
+  }
 }

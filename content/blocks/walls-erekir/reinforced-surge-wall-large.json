@@ -1,5 +1,11 @@
-
-requirements: []
-buildCostMultiplier: 0.1
-
-alwaysUnlocked: true
+{
+  "type": "Wall",
+  "name": "Large Reinforced Surge Wall",
+  "size": 2,
+  "health": 4000,
+  "armor": 20,
+  "lightningChance": 0.05,
+  "lightningDamage": 30,
+  "category": "defense",
+  "requirements": ["surge-alloy/24", "titanium/24"]
+}

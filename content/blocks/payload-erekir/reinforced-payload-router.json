@@ -11,7 +11,5 @@
   },
   "regionSuffix": "-dark",
   "category": "units",
-  "requirements": [
-    "titanium/15"
-  ]
+  "requirements": ["titanium/15"]
 }

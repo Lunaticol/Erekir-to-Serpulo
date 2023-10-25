@@ -1,20 +1,45 @@
 {
   "type": "HeatProducer",
-  "name": "Shockwave Tower",
-  "description": "destroys (unit) projectiles",
+  "name": "Oxidation Chamber",
+  "description": "Produces Oxide",
   "size": 3,
-  "range": 170,
-  "reload": 80,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidRegion"
+      },
+      {
+        "type": "drawDefault"
+      },
+      {
+        "type": "DrawHeatOutput"
+      }
+    ]
+  },
+  "ambientSound": "extractLoop",
+  "ambientSoundVolume": 0.08,
   "hasPower": true,
   "consumes": {
-    "power": 1,
+    "power": 0.5,
+    "items": ["copper/1"],
     "liquid": {
-      "liquid": "cyanogen",
-      "amount": 0.1,
+      "liquid": "ozone",
+      "amount": 0.03333333333,
       "booster": false
     }
   },
-  "category": "effect",
+  "outputItem": "oxidee/1",
+  "rotateDraw": false,
+  "regionRotated1": 2,
+  "craftTime": 120,
+  "liquidCapacity": 30,
+  "heatoutput": 5,
+  "category": "crafting",
   "requirements": [
     "silicon/180",
     "surge-alloy/50",

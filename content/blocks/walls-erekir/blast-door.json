@@ -1,5 +1,9 @@
-
-requirements: []
-buildCostMultiplier: 0.1
-
-alwaysUnlocked: true
+{
+  "type": "AutoDoor",
+  "name": "Large Beryllium Wall",
+  "size": 2,
+  "health": 2800,
+  "armor": 14,
+  "category": "defense",
+  "requirements": ["titanium/24", "silicon/24"]
+}

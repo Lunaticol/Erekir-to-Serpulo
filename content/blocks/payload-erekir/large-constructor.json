@@ -6,7 +6,7 @@
   "itemCapacity": 24,
   "buildSpeed": 0.2,
   "maxBlockSize": 4,
-  "minBlockSize": 3,
+  "minBlockSize": 1,
   "hasPower": true,
   "consumes": {
     "power": 1

@@ -15,9 +15,9 @@
     "power": 0.183333333333
   },
   "category": "production",
-  "requirements": [
-    "graphite/25",
-    "copper/10"
-  ],
-  "research": "core-shard"
+  "requirements": ["graphite/25", "copper/10"],
+  "research": {
+    "parent": "core-shard",
+    "requirements": ["copper/5"]
+  }
 }

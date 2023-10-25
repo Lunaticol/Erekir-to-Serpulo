@@ -40,10 +40,6 @@
     "power": 1
   },
   "category": "crafting",
-  "requirements": [
-    "copper/180",
-    "silicon/150",
-    "plastanium/60"
-  ],
+  "requirements": ["copper/180", "silicon/150", "oxidee/60"],
   "ResearchCostMultiplier": 1.1
 }

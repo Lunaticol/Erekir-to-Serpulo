@@ -1,5 +1,9 @@
-
-requirements: []
-buildCostMultiplier: 0.1
-
-alwaysUnlocked: true
+{
+  "type": "Wall",
+  "name": "Large Carbide Wall",
+  "size": 2,
+  "health": 4320,
+  "armor": 16,
+  "category": "defense",
+  "requirements": ["carbidee/24", "thorium/24"]
+}
