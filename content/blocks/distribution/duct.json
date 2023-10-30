@@ -4,11 +4,8 @@
   "description": "transportatin",
   "size": 1,
   "itemCapacity": 1,
-  "speed": 1,
+  "speed": 4,
   "category": "distribution",
-  "requirements": [
-    "graphite/25",
-    "copper/10"
-  ],
+  "requirements": ["graphite/25", "copper/10"],
   "research": "core-shard"
 }

@@ -1,3 +1,134 @@
 {
+  "type": "PowerTurret",
+  "name": "Afflict",
+  "shootType": {
+    "shootEffect": {
+      "type": "MultiEffect",
+      "effects": [
+        {
+          "colorTo": "surge",
+          "sizeTo": 26,
+          "lifetime": 14,
+          "strokeFrom": 4
+        }
+      ]
+    },
+
+    "sprite": "large-orb",
+    "trailEffect": "missileTrail",
+    "trailInterval": 3,
+    "trailParam": 4,
+    "pierceCap": 2,
+    "fragOnHit": false,
+    "speed": 5,
+    "damage": 180,
+    "lifetime": 80,
+    "width": { "height": 16 },
+    "backColor": "surge",
+    "frontColor": "white",
+    "shrinkX": { "shrinkY": 0 },
+    "trailColor": "surge",
+    "trailLength": 12,
+    "trailWidth": 2.2,
+    "despawnEffect": {
+      "hitEffect": [
+        {
+          "waveColor": "surge",
+          "smokeColor": "gray",
+          "sparkColor": "sap",
+          "waveStroke": 4,
+          "waveRad": 40
+        }
+      ]
+    }
+  },
+  "despawnSound": "dullExplosion",
+  "shootSound": "cannon",
+  "fragBullet": {
+    "intervalBullet": {
+      "type": "BasicBulletType",
+      "width": 9,
+      "hitSize": 5,
+      "height": 15,
+      "pierce": true,
+      "lifetime": 35,
+      "pierceBuilding": true,
+      "hitColor": { "backColor": { "trailColor": "surge" } },
+      "frontColor": "white",
+      "trailWidth": 2.1,
+      "trailLength": 5,
+      "hitEffect": {
+        "despawnEffect": {
+          "type": "WaveEffect",
+          "colorFrom": { "colorTo": "surge" },
+          "sizeTo": 4,
+          "strokeFrom": 4,
+          "lifetime": 10
+        }
+      },
+      "buildingDamageMultiplier": 0.3,
+      "homingPower": 0.2
+    }
+  },
+  "bulletInterval": 3,
+  "intervalRandomSpread": 20,
+  "intervalBullets": 2,
+  "intervalAngle": 180,
+  "intervalSpread": 300,
+
+  "fragBullets": 20,
+  "fragVelocityMin": 0.5,
+  "fragVelocityMax": 1.5,
+  "fragLifeMin": 0.5,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawTurret",
+        "suffix": "reinforced-",
+        "RegionPart": "-blade",
+        "progress": "recoil",
+        "heatColor": "ff5214",
+        "mirror": true,
+        "under": true,
+        "moveX": 2,
+        "moveY": -1,
+        "moveRot": -7
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-blade-glow",
+        "progress": "recoil",
+        "heatProgress": "warmup",
+        "heatColor": "ff5214",
+        "mirror": true,
+        "under": true,
+        "moveX": 2,
+        "moveY": -1,
+        "moveRot": -7
+      }
+    ]
+  },
+  "hasPower": true,
+  "consumes": {
+    "power": 5
+  },
+  "heatRequirement": 10,
+  "maxHeatEfficiency": 2,
+  "inaccuracy": 1,
+  "shake": 2,
+  "shootY": 4,
+  "outlineColor": "darkOutline",
+  "size": 4,
+  "envEnabled": "space",
+  "reload": 100,
+  "cooldownTime": "reload",
+  "recoil": 3,
+  "range": 350,
+  "shootCone": 20,
+  "scaledHealth": 220,
+  "rotateSpeed": 1.5,
+  "researchCostMultiplier": 0.04,
+  "limitRange": 9,
   "category": "turret"
 }

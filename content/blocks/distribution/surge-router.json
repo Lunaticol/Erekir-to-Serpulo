@@ -3,12 +3,18 @@
   "name": "Surge Router",
   "description": "Crushes walls, outputting sand indefinitely. Requires power. Efficiency varies based on type of wall.",
   "size": 1,
-  "itemCapacity": 1,
-  "speed": 1,
+  "speed": 6,
+  "outputRouter": false,
+  "underBullets": true,
+  "hasPower": true,
+  "consumesPower": true,
+  "conductivePower": true,
+  "baseEfficiency": 1,
+  "solid": true,
+  "consumes": {
+    "power": 0.05
+  },
   "category": "distribution",
-  "requirements": [
-    "graphite/25",
-    "copper/10"
-  ],
+  "requirements": ["graphite/25", "copper/10"],
   "research": "core-shard"
 }

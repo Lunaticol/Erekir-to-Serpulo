@@ -3,12 +3,18 @@
   "name": "Surge Conveyor",
   "description": "Crushes walls, outputting sand indefinitely. Requires power. Efficiency varies based on type of wall.",
   "size": 1,
-  "itemCapacity": 1,
-  "speed": 1,
+  "itemCapacity": 10,
+  "speed": 0.08333333333,
+  "outputRouter": false,
+  "underBullets": true,
+  "hasPower": true,
+  "consumesPower": true,
+  "baseEfficiency": 1,
+  "conductivePower": true,
+  "consumes": {
+    "power": 0.01666666667
+  },
   "category": "distribution",
-  "requirements": [
-    "graphite/25",
-    "copper/10"
-  ],
+  "requirements": ["graphite/25", "copper/10"],
   "research": "core-shard"
 }
