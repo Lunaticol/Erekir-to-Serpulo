@@ -5,14 +5,14 @@
   "size": 5,
   "health": 16000,
   "itemCapacity": 4000,
+  "armor": 10,
   "squareSprite": false,
+  "thrusterLength": 10,
+  "unitType": "incite",
   "category": "effect",
-  "requirements": [
-    "silicon/4000",
-    "copper/4000",
-    "titanium/3000",
-    "lead/1000"
-  ],
+  "requirements": ["silicon/4000", "copper/4000", "titanium/3000", "lead/1000"],
   "research": "core-shard",
-  "incinerateNonBuildable": false
+  "incinerateNonBuildable": false,
+  "requiresCoreZone": true,
+  "unitCapModifier": 15
 }

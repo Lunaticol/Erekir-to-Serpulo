@@ -1,6 +1,11 @@
-itemCapacity: 95000
-
-requirements: []
-buildCostMultiplier: 0.1
-
-alwaysUnlocked: true
+{
+  "type": "StorageBlock",
+  "name": "Reinforced Container",
+  "description": "Erekir container",
+  "size": 2,
+  "scaledHealth": 120,
+  "itemCapacity": 80,
+  "coreMerge": true,
+  "category": "effect",
+  "requirements": ["graphite/40", "titanium/30"]
+}

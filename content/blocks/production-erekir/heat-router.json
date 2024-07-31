@@ -1,20 +1,26 @@
 {
   "type": "HeatConductor",
-  "name": "Shockwave Tower",
-  "description": "destroys (unit) projectiles",
+  "name": "Heat Router",
+  "description": "Redirects Heat in 3 ways",
   "size": 3,
-  "range": 170,
-  "reload": 80,
-  "hasPower": true,
-  "consumes": {
-    "power": 1,
-    "liquid": {
-      "liquid": "cyanogen",
-      "amount": 0.1,
-      "booster": false
-    }
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawHeatOutput"
+      },
+      {
+        "type": "drawHeatInput",
+        "suffix": "-heat"
+      }
+    ]
   },
-  "category": "effect",
+  "splitHeat": true,
+  "regionRotated1": 1,
+  "category": "crafting",
   "requirements": [
     "silicon/180",
     "surge-alloy/50",

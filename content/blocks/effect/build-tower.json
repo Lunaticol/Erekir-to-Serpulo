@@ -1,7 +1,7 @@
 {
   "type": "BuildTurret",
   "name": "Build Turret",
-  "description": "like support units it helps build",
+  "description": "Like support units it helps you build structures",
   "size": 3,
   "range": 200,
   "outlines": true,

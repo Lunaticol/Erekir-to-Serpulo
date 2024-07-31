@@ -1,7 +1,7 @@
 {
   "type": "HeatCrafter",
-  "name": "Atmospheric Concentrator",
-  "description": "Produces Nitrogen",
+  "name": "Cyanogen Synthesizer",
+  "description": "Produces cyanogen",
   "drawer": {
     "type": "DrawMulti",
     "drawers": [

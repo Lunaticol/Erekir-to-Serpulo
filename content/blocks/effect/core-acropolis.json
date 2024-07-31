@@ -6,6 +6,7 @@
   "health": 30000,
   "itemCapacity": 4000,
   "squareSprite": false,
+  "unitType": "emanate",
   "category": "effect",
   "requirements": [
     "silicon/5000",
@@ -15,5 +16,11 @@
     "thorium/3000"
   ],
   "research": "core-shard",
-  "incinerateNonBuildable": false
+  "incinerateNonBuildable": false,
+  "buildCostMultiplier": 0.7,
+  "researchCostMultiplier": 0.1,
+  "requiresCoreZone": true,
+  "unitCapModifier": 15,
+  "armor": 15,
+  "thrusterLength": 12
 }

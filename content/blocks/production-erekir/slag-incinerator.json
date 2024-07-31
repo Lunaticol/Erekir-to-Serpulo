@@ -1,25 +1,16 @@
 {
   "type": "HeatProducer",
-  "name": "Shockwave Tower",
-  "description": "destroys (unit) projectiles",
-  "size": 3,
-  "range": 170,
-  "reload": 80,
-  "hasPower": true,
+  "name": "Slag Incinerator",
+  "description": "Uses slag to destroy items. Pretty useless if you ask me.",
+  "size": 1,
   "consumes": {
-    "power": 1,
     "liquid": {
-      "liquid": "cyanogen",
-      "amount": 0.1,
+      "liquid": "slag",
+      "amount": 0.03333333333,
       "booster": false
     }
   },
-  "category": "effect",
-  "requirements": [
-    "silicon/180",
-    "surge-alloy/50",
-    "titanium/100",
-    "plastanium/30"
-  ],
+  "category": "crafting",
+  "requirements": ["titanium/15"],
   "research": "core-shard"
 }

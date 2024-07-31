@@ -1,25 +1,24 @@
 {
   "type": "HeatProducer",
-  "name": "Shockwave Tower",
-  "description": "destroys (unit) projectiles",
-  "size": 3,
-  "range": 170,
-  "reload": 80,
-  "hasPower": true,
-  "consumes": {
-    "power": 1,
-    "liquid": {
-      "liquid": "cyanogen",
-      "amount": 0.1,
-      "booster": false
-    }
+  "name": "Phase Heater",
+  "description": "Produces heat using phase fabric",
+  "size": 2,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawHeatOutput"
+      }
+    ]
   },
-  "category": "effect",
-  "requirements": [
-    "silicon/180",
-    "surge-alloy/50",
-    "titanium/100",
-    "plastanium/30"
-  ],
+  "rotateDraw": false,
+  "heatOutput": 15,
+  "regionRotated1": 1,
+  "ambientSound": "Hum",
+  "category": "crafting",
+  "requirements": ["oxidee/30", "titanium/30"],
   "research": "core-shard"
 }

@@ -11,7 +11,9 @@
         "suffix": "-bottom"
       },
       {
-        "type": "DrawLiquidRegion"
+        "type": "DrawLiquidTile",
+        "liquids": "ozone",
+        "drawLiquid": "ozone"
       },
       {
         "type": "drawDefault"

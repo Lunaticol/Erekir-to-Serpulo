@@ -1,25 +1,67 @@
 {
-  "type": "HeatProducer",
-  "name": "Shockwave Tower",
-  "description": "destroys (unit) projectiles",
+  "type": "HeatCrafter",
+  "name": "Surge Crucible",
+  "description": "Produces Surge Alloy using Slag and Silicon. Requires heat.",
   "size": 3,
-  "range": 170,
-  "reload": 80,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawCircles",
+        "color": "ffc073",
+        "radius": 10,
+        "amount": 3,
+        "strikeMax": 2.5
+      },
+      {
+        "type": "DrawLiquidRegion",
+        "liquids": "slag",
+        "drawLiquid": "slag"
+      },
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawHeatInput"
+      },
+      {
+        "type": "DrawHeatRegion",
+        "color": "ff6060ff"
+      },
+      {
+        "type": "DrawHeatRegion",
+        "suffix": "-vents"
+      }
+    ]
+  },
   "hasPower": true,
   "consumes": {
-    "power": 1,
+    "power": 6,
+    "items": ["silicon/3"],
     "liquid": {
-      "liquid": "cyanogen",
-      "amount": 0.1,
+      "liquid": "slag",
+      "amount": 0.66666666666,
       "booster": false
     }
   },
-  "category": "effect",
-  "requirements": [
-    "silicon/180",
-    "surge-alloy/50",
-    "titanium/100",
-    "plastanium/30"
-  ],
-  "research": "core-shard"
+  "outputItem": "surge-alloy/1",
+  "craftTime": 180,
+  "itemCapacity": 30,
+  "liquidCapacity": 400,
+  "category": "crafting",
+  "requirements": ["copper/70", "graphite/80"],
+  "research": "core-shard",
+  "ambientSound": "smelter",
+  "ambientSoundVolume": 0.9,
+  "craftEffect": {
+    "type": "RadialEffect",
+    "effect": "surgeCruciSmoke",
+    "amount": 4,
+    "rotationSpacing": 90,
+    "lengthOffset": 5
+  }
 }

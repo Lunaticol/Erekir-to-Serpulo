@@ -1,25 +1,53 @@
 {
-  "type": "HeatProducer",
-  "name": "Shockwave Tower",
-  "description": "destroys (unit) projectiles",
+  "type": "HeatCrafter",
+  "name": "Phase Synthesizer",
+  "description": "Creates Phase Fabric at a faster rate then the Phase Weaver. Requires more resources to run.",
   "size": 3,
-  "range": 170,
-  "reload": 80,
-  "hasPower": true,
+  "itemCapacity": 40,
+  "heatRequirement": 8,
+  "craftTime": 120,
+  "liquidCapacity": 40,
+  "ambientSound": "techloop",
+  "ambientSoundVolume": 0.04,
+  "outputItem": "phase-fabric/1",
   "consumes": {
-    "power": 1,
+    "power": 8,
+    "items": ["thorium/2", "sand/6"],
     "liquid": {
-      "liquid": "cyanogen",
-      "amount": 0.1,
+      "liquid": "ozone",
+      "amount": 30,
       "booster": false
     }
   },
-  "category": "effect",
+  "category": "crafting",
   "requirements": [
     "silicon/180",
     "surge-alloy/50",
     "titanium/100",
     "plastanium/30"
   ],
-  "research": "core-shard"
+  "research": "core-shard",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      { "type": "DrawRegion", "suffix": "-bottom" },
+      {
+        "type": "DrawSpikes",
+        "color": "ffd59e",
+        "stroke": 1.5,
+        "layers": 2,
+        "amount": 12,
+        "rotateSpeed": 0.5,
+        "layerSpeed": -0.9
+      },
+      { "type": "DrawMultiWeave", "glowColor": "ff6666cc" },
+      { "type": "DrawDefault" },
+      { "type": "DrawHeatInput" },
+      {
+        "type": "DrawHeatRegion",
+        "suffix": "-vents",
+        "color": "ff6666cc"
+      }
+    ]
+  }
 }

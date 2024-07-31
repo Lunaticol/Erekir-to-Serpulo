@@ -1,6 +1,11 @@
-itemCapacity: 95000
-
-requirements: []
-buildCostMultiplier: 0.1
-
-alwaysUnlocked: true
+{
+  "type": "StorageBlock",
+  "name": "Reinforced Vault",
+  "description": "Erekir container",
+  "size": 2,
+  "scaledHealth": 120,
+  "itemCapacity": 900,
+  "coreMerge": true,
+  "category": "effect",
+  "requirements": ["copper/100", "titanium/125", "thorium/70"]
+}

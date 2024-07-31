@@ -8,15 +8,15 @@
   "isFirstTier": true,
   "unitType": "evoke",
   "thrusterLength": 8.5,
+  "unitCapModifier": 15,
   "armor": 5,
   "squareSprite": false,
   "category": "effect",
-  "requirements": [
-    "silicon/1000",
-    "copper/800",
-    "lead/1000"
-  ],
+  "requirements": ["silicon/1000", "copper/800", "lead/1000"],
   "research": "core-shard",
   "incinerateNonBuildable": false,
-  "alwaysUnlocked": true
+  "alwaysUnlocked": true,
+  "buildCostMultiplier": 0.7,
+  "researchCostMultiplier": 0.07,
+  "requiresCoreZone": true
 }
