@@ -1,7 +1,7 @@
 {
   "type": "Duct",
   "name": "Duct",
-  "description": "transportatin",
+  "description": "Moves items forward. Only capable of storing a single item.",
   "size": 1,
   "itemCapacity": 1,
   "speed": 4,

@@ -1,7 +1,7 @@
 {
   "type": "Duct",
   "name": "Armored Duct",
-  "description": "armored version of duct",
+  "description": "Moves items forward. Does not accept non-duct inputs from the sides.",
   "size": 1,
   "itemCapacity": 1,
   "speed": 1,
